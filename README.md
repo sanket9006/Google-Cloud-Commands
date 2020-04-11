@@ -17,6 +17,7 @@ gsutil mb gs://<BUCKET_NAME>
 
 ## <p align="center"> Copy files to Bucket  </p>
 gsutil cp [MY_FILE] gs://[BUCKET_NAME]
+
 gsutil cp setup.html gs://$BUCKET_NAME_1/
 
 
@@ -31,6 +32,7 @@ gcloud compute networks list
 
 ## <p align="center"> Make Copy</p>
 cp setup.html setup2.html
+
 cp setup.html setup3.html
 
 
