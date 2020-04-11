@@ -11,3 +11,14 @@ sudo wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb73427087
 ## <p align="center"> Create Bucket </p>
 
 gsutil mb gs://<BUCKET_NAME>
+
+
+
+## <p align="center"> Copy files to Bucket  </p>
+
+gsutil cp [MY_FILE] gs://[BUCKET_NAME]
+
+gsutil cp setup.html gs://$BUCKET_NAME_1/
+
+
+
