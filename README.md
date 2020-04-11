@@ -4,13 +4,13 @@
 
 
 
-## <p align="center"> Download any file using wget</p>
+## <p> Download any file using wget</p>
 sudo wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar
 
 
 
 
-## <p align="center"> Create Bucket </p>
+## <p> Create Bucket </p>
 gsutil mb gs://<BUCKET_NAME>
 
 gsutil mb gs://2b1dc6ab4c65554cb73
@@ -18,7 +18,7 @@ gsutil mb gs://2b1dc6ab4c65554cb73
 
 
 
-## <p align="center"> Copy files to Bucket  </p>
+## <p> Copy files to Bucket  </p>
 gsutil cp [MY_FILE] gs://[BUCKET_NAME]
 
 gsutil cp setup.html gs://2b1dc6ab4c65554cb73
@@ -27,13 +27,13 @@ gsutil cp setup.html gs://2b1dc6ab4c65554cb73
 
 
 
-## <p align="center"> list the available VPC networks</p>
+## <p> list the available VPC networks</p>
 gcloud compute networks list
 
 
 
 
-## <p align="center"> Make Copy</p>
+## <p> Make Copy</p>
 cp setup.html setup2.html
 
 cp setup.html setup3.html
@@ -41,18 +41,18 @@ cp setup.html setup3.html
 
 
 
-## <p align="center"> To list the available VPC subnets</p>
+## <p> To list the available VPC subnets</p>
 gcloud compute networks subnets list --sort-by=NETWORK
 
 
-## <p align="center"> Set time zone subnets</p>
+## <p> Set time zone subnets</p>
 gcloud config set compute/zone us-central1-b
 
 
-## <p align="center"> Create Virtual Machine Instance</p>
+## <p> Create Virtual Machine Instance</p>
 gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone us-central1-c
 
 
-## <p align="center"> Create Cluster</p>
+## <p> Create Cluster</p>
 gcloud container clusters create io
 
