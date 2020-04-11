@@ -45,3 +45,14 @@ cp setup.html setup3.html
 gcloud compute networks subnets list --sort-by=NETWORK
 
 
+## <p align="center"> Set time zone subnets</p>
+gcloud config set compute/zone us-central1-b
+
+
+## <p align="center"> Create Virtual Machine Instance</p>
+gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone us-central1-c
+
+
+## <p align="center"> Create Cluster</p>
+gcloud container clusters create io
+
