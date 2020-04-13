@@ -58,3 +58,27 @@
 
 ## <p> List the files in our current directory</p>
 > ls
+
+
+
+
+## <p> To edit a file</p>
+> nano filename.txt
+
+## <p> output the contents of a file</p>
+> cat filename.txt
+
+
+## <p> List the files in our current directory</p>
+> ls
+
+
+## <p> List the files in our current directory</p>
+> ls
+
+## <p> List the files in our current directory</p>
+> ls
+
+## <p> List the files in our current directory</p>
+> ls
+
