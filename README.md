@@ -56,3 +56,5 @@ gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone us-c
 ## <p> Create Cluster</p>
 gcloud container clusters create io
 
+## <p> List the files in our current directory</p>
+> ls
