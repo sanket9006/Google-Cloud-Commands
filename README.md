@@ -1,4 +1,4 @@
-# Google-Cloud-Commands
+# Google-Cloud-Commands (Cloud Shell)
 ![image](https://github.com/sanket9006/Google-Cloud-Commands/blob/master/google-cloud.png)
 
 
