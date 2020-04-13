@@ -68,17 +68,15 @@
 ## <p> output the contents of a file</p>
 > cat filename.txt
 
+## <p> update your OS</p>
+> apt-get update
 
-## <p> List the files in our current directory</p>
-> ls
+## <p> Install NGINX</p>
+> apt-get install nginx -y
 
+## <p> Check that NGINX is running</p>
+> ps auwx | grep nginx
 
-## <p> List the files in our current directory</p>
-> ls
-
-## <p> List the files in our current directory</p>
-> ls
-
-## <p> List the files in our current directory</p>
-> ls
+## <p> To disconnect from SSH</p>
+> exit
 
