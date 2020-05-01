@@ -3,8 +3,15 @@
 > Cloud Shell comes preinstalled with specific command line tools. The main GCP toolkit is gcloud, which is used for many tasks on the platform, like resource management and user authentication.
 
 
+## <p>In Cloud Shell, set the default zone:</p>
 
-## <p> Download any file using wget</p>
+>gcloud config set compute/zone us-central1-a
+
+## <p>Set the default region:</p>
+
+>gcloud config set compute/region us-central1
+
+## <p> Download any file using wget
 > sudo wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar
 
 
