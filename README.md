@@ -26,10 +26,10 @@
 
 ## <p> Setting up prebuild E-Commerce website using Google Cloud and GitHub </p>
 
-  > cd ~
-  > git clone https://github.com/googlecodelabs/monolith-to-microservices.git
-  > cd ~/monolith-to-microservices
-  > ./setup.sh
+    > cd ~
+    > git clone https://github.com/googlecodelabs/monolith-to-microservices.git
+    > cd ~/monolith-to-microservices
+    > ./setup.sh
 
 
 
