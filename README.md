@@ -3,6 +3,24 @@
 > Cloud Shell comes preinstalled with specific command line tools. The main GCP toolkit is gcloud, which is used for many tasks on the platform, like resource management and user authentication.
 
 
+## <p> Setting up prebuild E-Commerce website using Google Cloud and GitHub </p>
+
+    > cd ~
+    > git clone https://github.com/googlecodelabs/monolith-to-microservices.git
+    > cd ~/monolith-to-microservices
+    > ./setup.sh
+    
+## <p> Create Cluster</p>
+        > gcloud container clusters create io
+        > gcloud container clusters create fancy-cluster --num-nodes 3
+        
+        Created GKE cluster named fancy-cluster with 3 nodes
+
+## <p> List out all present instances </p>
+        > gcloud compute instances list
+        
+        
+
 ## <p>In Cloud Shell, set the default zone:</p>
 
 >gcloud config set compute/zone us-central1-a
@@ -15,8 +33,7 @@
 > sudo wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar
 
 
-## <p> List out all present instances </p>
-        > gcloud compute instances list
+
 
 
 ## <p> Create Bucket </p>
@@ -26,12 +43,7 @@
 
 
 
-## <p> Setting up prebuild E-Commerce website using Google Cloud and GitHub </p>
 
-    > cd ~
-    > git clone https://github.com/googlecodelabs/monolith-to-microservices.git
-    > cd ~/monolith-to-microservices
-    > ./setup.sh
 
 
 
@@ -71,12 +83,6 @@
 ## <p> Create Virtual Machine Instance</p>
 > gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone us-central1-c
 
-
-## <p> Create Cluster</p>
-        > gcloud container clusters create io
-        > gcloud container clusters create fancy-cluster --num-nodes 3
-        
-        Created GKE cluster named fancy-cluster with 3 nodes
 
 ## <p> List the files in our current directory</p>
 > ls
