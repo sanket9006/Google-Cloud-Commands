@@ -24,6 +24,16 @@
 
 
 
+## <p> Setting up prebuild E-Commerce website using Google Cloud and GitHub </p>
+
+> cd ~
+> git clone https://github.com/googlecodelabs/monolith-to-microservices.git
+> cd ~/monolith-to-microservices
+> ./setup.sh
+
+
+
+
 
 ## <p> Copy files to Bucket  </p>
 > gsutil cp [MY_FILE] gs://[BUCKET_NAME]
