@@ -5,16 +5,16 @@
 
 ## <p> Setting up prebuild E-Commerce website using Google Cloud and GitHub </p>
 
-    > cd ~
-    > git clone https://github.com/googlecodelabs/monolith-to-microservices.git
-    > cd ~/monolith-to-microservices
-    > ./setup.sh
+    cd ~
+    git clone https://github.com/googlecodelabs/monolith-to-microservices.git
+    cd ~/monolith-to-microservices
+    ./setup.sh
     
 ## <p> Create Cluster</p>
-        > gcloud container clusters create io
-        > gcloud container clusters create fancy-cluster --num-nodes 3
+    gcloud container clusters create io
+    gcloud container clusters create fancy-cluster --num-nodes 3
         
-        Created GKE cluster named fancy-cluster with 3 nodes
+    Created GKE cluster named fancy-cluster with 3 nodes
 
 ## <p> List out all present instances </p>
         > gcloud compute instances list
