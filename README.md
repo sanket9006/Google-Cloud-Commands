@@ -71,7 +71,6 @@
 
 
 
-
 ## <p> To list the available VPC subnets</p>
 > gcloud compute networks subnets list --sort-by=NETWORK
 
