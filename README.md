@@ -19,7 +19,6 @@
 ## <p> List out all present instances </p>
         > gcloud compute instances list
         
-        
 
 ## <p>In Cloud Shell, set the default zone:</p>
 
