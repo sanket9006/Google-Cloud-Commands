@@ -1,1 +1,0 @@
-gsutil mb gs://<BUCKET_NAME>
