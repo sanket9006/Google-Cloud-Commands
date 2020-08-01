@@ -1,5 +1,5 @@
 # Google-Cloud-Commands (Cloud Shell)
-![image](https://github.com/sanket9006/Google-Cloud-Commands/blob/master/google-cloud.png)
+![image](https://github.com/sanket9006/Google-Cloud-Commands/blob/master/Others/google-cloud.png)
 > Cloud Shell comes preinstalled with specific command line tools. The main GCP toolkit is gcloud, which is used for many tasks on the platform, like resource management and user authentication.
 
 
