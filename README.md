@@ -12,7 +12,7 @@
     
 ## <p> Create Cluster</p>
     gcloud container clusters create io
-    gcloud container clusters create fancy-cluster --num-nodes 3
+    gcloud container clusters create fancy-cluster --num-nodes 3 
         
     Created GKE cluster named fancy-cluster with 3 nodes
 
